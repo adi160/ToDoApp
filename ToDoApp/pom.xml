@@ -12,7 +12,7 @@
 	<artifactId>ToDoApp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ToDoApp</name>
-	<description>Employee Management App</description>
+	<description>Basic todo App</description>
 	<properties>
 		<java.version>20</java.version>
 	</properties>
@@ -20,6 +20,12 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.tomcat.embed</groupId>
+			<artifactId>tomcat-embed-jasper</artifactId>
+			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
